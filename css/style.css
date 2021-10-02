@@ -1,0 +1,67 @@
+/*Fonts Start*/
+@font-face {
+  font-family: Raleway-BoldItalic;
+  src: url(../fonts/Raleway-BoldItalic.ttf);
+}
+/*Fonts End*/
+
+/*css Start*/
+body {
+  font-size: 16px;
+  background: rgb(27, 41, 56);
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #191919;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 40px 15px;
+  padding: 40px;
+}
+.box h1 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #3498db;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 5px 0 30px;
+}
+.box input[type="text"],
+.box input[type="password"] {
+  width: 200px;
+  display: block;
+  color: white;
+  background: none;
+  text-align: center;
+  margin: 20px auto;
+  outline: none;
+  border: 2px solid #3498db;
+  border-radius: 25px;
+  padding: 14px 10px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 250px;
+  border-color: #2ecc71;
+}
+.box input[type="submit"] {
+  width: 150px;
+  color: white;
+  background: none;
+  border: 1px solid #2ecc71;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  padding: 14px 40px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover {
+  background-color: #2ecc71;
+}
+/*css End*/
