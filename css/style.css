@@ -20,7 +20,7 @@ body {
   background-color: #191919;
   text-align: center;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 40px 15px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
   padding: 40px;
 }
 .box h1 {
